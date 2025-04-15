@@ -211,6 +211,13 @@ const closeBtn = document.querySelector(".close-btn");
 let currentIndex = 0;
 let currentProjectList = [];
 
+const specificMedia = [
+  "vs ps media/steal her look.mp4",
+  "vs ps media/virtual haul.mp4",
+  "vs ps media/what would you wear.mp4",
+  "vs ps media/discount alert.mp4",
+];
+
 function openModal(index, projectList) {
   currentIndex = index;
   currentProjectList = projectList;
@@ -231,6 +238,13 @@ function updateModalContent() {
     const video = document.createElement("video");
     video.setAttribute("controls", "true");
     video.innerHTML = `<source src="${project.media}" type="video/mp4">Your browser does not support the video tag.`;
+
+    if (specificMedia.includes(project.media)) {
+      video.style.width = "70%";
+      video.style.height = "70%";
+      video.classList.add("specific-video-gap");
+    }
+
     modalMediaContainer.appendChild(video);
   } else {
     const img = document.createElement("img");
