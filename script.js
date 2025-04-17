@@ -1,10 +1,11 @@
+// Projects Data Arrays
 const developerProjects = [
   {
     title: "Arcane Chronicles",
     media: "dev media/Arcane Chronicles.mp4",
     type: "video",
     description:
-      "Arcane Chronicles is a fan-made interactive quiz experience designed for true Arcane enthusiasts. The game begins by prompting players with the question Are you a Legend. Answering yes opens the gateway to select from nine unique nations representing key characters like Vi, Jinx, Viktor, and more. Each nation contains twenty carefully crafted questions, eight from Season 1 and twelve from Season 2, that challenge the player's memory and love for the show. The quiz cards feature animated effects, thematic visuals, and nation-specific backgrounds. Correct answers shimmer in blue like Powder, while wrong ones shake and glow purple like Shimmer. The game includes a progress bar, an end-of-quiz results screen, and a scoreboard that saves scores by nation using localStorage. Players can revisit their performance, challenge themselves again, or simply vibe to the atmospheric background video and elegant UI. A lovingly crafted tribute with the message In Loving Memory of Isha adds a heartfelt touch to this passionate project.",
+      "An immersive, character-based quiz game inspired by Arcane: League of Legends. Players test their knowledge of the series by answering character-based questions, unlocking rich lore & interactive visuals along the way.",
     link: "https://github.com/ninankhwashu/arcane-quiz-game",
   },
   {
@@ -12,7 +13,7 @@ const developerProjects = [
     media: "dev media/The Lyrithium Engine.mp4",
     type: "video",
     description:
-      "The Lyrithium Engine is a poetic web application that invites users to enter a topic and instantly receive a beautifully styled 8-line poem. Built with HTML, CSS, JavaScript, and powered by the SheCodes AI API, the app takes user input and sends it through a prompt that instructs the AI to generate a romantic poem. Each line of the poem appears with a typewriter animation, adding a dynamic and whimsical effect to the reading experience. The interface features soft pastel colors, a floral-themed background, and a clean, centered layout designed to evoke calm and creativity. A gentle footer credits the creator and links to the project’s open-source code and live deployment. Whether you're looking to be inspired, share emotion, or explore creative AI, The Lyrithium Engine is your digital poetry companion.",
+      "An elegant AI-powered poem generator that transforms user prompts into short, romantic verses with a single click. It uses natural language processing to craft personalized 8-line poems in real time.",
     link: "https://github.com/ninankhwashu/ai-poem-generator",
   },
   {
@@ -20,7 +21,7 @@ const developerProjects = [
     media: "dev media/Arcane Chronicles.mp4",
     type: "video",
     description:
-      "Aurallune is a mood-based music companion that uses emotion as the gateway to sonic connection. Users start by selecting how they feel, drawing from a rich list of emotional states. Once an emotion is chosen, the app taps into the Spotify API to generate music that aligns with the user's current state of mind. By analyzing energy, tempo, and valence, Aurallune matches users with tracks that feel emotionally in sync. The interface is smooth, modern, and designed to reflect the vibe of each feeling, with a music player styled like a vinyl turntable that responds visually when tracks are played. Aurallune turns emotion into melody, helping users explore their mood through sound, offering a personal and immersive way to feel seen, heard, and understood.",
+      "An emotion-driven music discovery app that curates personalized song suggestions using the Spotify API, based on how the user feels in the moment.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -28,7 +29,7 @@ const developerProjects = [
     media: "dev media/Pathpholio.mp4",
     type: "video",
     description:
-      "Pathpholio is a web-based job tracking tool designed to simplify and structure the job search journey. Users can log job titles, companies, and application statuses such as Applied, Interview Scheduled, or Offer Received. Submissions are stored locally, allowing data to persist across sessions without any login or backend setup. The app features an intuitive form for adding entries, a clean visual table to display all applications, and a live filter to view applications based on status. Users can also remove jobs with a single click. Every action gives real-time feedback with smooth animations and alerts, keeping the experience user-friendly and responsive. With a modern layout, bold color accents, and thoughtful UX, Pathpholio makes staying organized during a job search feel effortless and empowering.",
+      "An interactive job application tracker that helps users organize and monitor their job hunt in one place, with smart filtering and localStorage-powered persistence.",
     link: "https://github.com/ninankhwashu/interactive-job-application-tracker",
   },
   {
@@ -36,7 +37,7 @@ const developerProjects = [
     media: "dev media/Standard Bank UX Login Experience.mp4",
     type: "video",
     description:
-      "This project reimagines the login and sign-up experience for Standard Bank users with a sleek, dual-panel layout that smoothly transitions between account creation, sign-in, and password recovery. Built with HTML, CSS, and JavaScript, the interface uses animated panel switches, layered forms, and a calming blue palette that mirrors the bank's identity. Users can easily toggle between creating an account and logging in, while the integrated reset password panel adds extra functionality without disrupting the overall flow. Every interaction is fluid, accessible, and styled for clarity and simplicity. The use of clean typography, responsive form elements, and intuitive transitions makes this interface a user-first experience tailored for modern banking environments.",
+      "A modern and responsive login interface designed to enhance user onboarding and authentication flow for digital banking platforms using Standard Bank as a case study.",
     link: "https://github.com/ninankhwashu/bank-user-login",
   },
   {
@@ -44,15 +45,15 @@ const developerProjects = [
     media: "dev media/Pexzzles.mp4",
     type: "video",
     description:
-      "Pexzzles transforms everyday images into interactive puzzles by combining the power of the Pexels API with a dynamic grid system. Players start by searching for any photo using a keyword, choose their preferred difficulty level (3x3, 4x4, or 5x5), and then select an image to break into shuffled tiles. The game features real-time progress tracking, a built-in timer, and a limited hint system that briefly reveals the full image overlay. Users complete the puzzle by rearranging the pieces into their correct positions through an intuitive drag-and-drop interface. Once solved, the completion time and difficulty are saved to a scoreboard. The interface is styled with a vibrant and playful aesthetic, creating a fun and visually rewarding experience.",
-    link: "https://your-portfolio-link.comhttps://github.com/ninankhwashu/photo-puzzle-game",
+      "A drag-and-drop photo puzzle game that lets users search for images using the Pexels API and solve them as customizable grid-based puzzles.",
+    link: "https://github.com/ninankhwashu/photo-puzzle-game",
   },
   {
     title: "YNNE",
     media: "dev media/Arcane Chronicles.mp4",
     type: "video",
     description:
-      "YNNE serves as a high-impact digital intro for a gamer, blending modern visuals with a sleek, aggressive layout that echoes gaming culture. The landing page is structured to instantly communicate the gamer's presence, persona, and vibe. It’s ideal for Twitch streamers, esports players, or anyone building a personal gamer brand. From typographic style to UI elements, every detail is tailored for a high-energy look—featuring dark themes, glitch effects, and gaming-inspired icons or transitions. Whether it's a placeholder for future content or a bold statement of gamer identity, YNNE makes sure first impressions hit like a headshot.",
+      "A bold and immersive landing page crafted for a gamer persona—designed to capture attention, radiate personality, and instantly communicate gamer identity.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -60,7 +61,7 @@ const developerProjects = [
     media: "dev media/FNB UX Appointment Booking Experience.mp4",
     type: "video",
     description:
-      "This project provides a seamless appointment scheduling system tailored for FNB clients. It opens with a sleek welcome screen that invites users to skip long queues and book appointments from the comfort of their device. Users fill in essential details like name, ID number, branch, service type, date, and time. The interface ensures valid input, disables weekend bookings, and adds polish with responsive design and friendly error messages. Once a booking is confirmed, users are assigned a random banking consultant and receive a personalized appointment summary. The experience is styled with bold FNB branding, animated visual elements, and thoughtful interactions that enhance both accessibility and convenience. It's a fully responsive web app with built-in form validation, randomized employee assignments, and appointment tracking all in one smooth flow.",
+      "A user-friendly interface designed to simplify and speed up the process of booking in-branch banking appointments without the hassle of waiting in queues.",
     link: "https://github.com/ninankhwashu/bank-appointment-online-booking",
   },
 ];
@@ -79,7 +80,7 @@ const imageVideoProjects = [
     media: "vs ps media/steal her look.mp4",
     type: "video",
     description:
-      "Created shoppable recreations of iconic outfits worn by public figures, expertly sourcing and styling each piece for effortless integration into clients’ existing wardrobes. Delivered fashion-forward solutions that allowed clients to emulate high-profile looks with ease and confidence.",
+      "Created shoppable recreations of iconic outfits worn by public figures, expertly sourcing and styling each piece for effortless integration into clients' existing wardrobes. Delivered fashion-forward solutions that allowed clients to emulate high-profile looks with ease and confidence.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -119,7 +120,7 @@ const imageVideoProjects = [
     media: "vs ps media/discount alert.mp4",
     type: "video",
     description:
-      "Provided timely updates on exclusive brand discounts, thoughtfully curated to align with the audience’s personal style goals and budget-friendly must-haves. Helped clients make intentional purchases by connecting them with stylish deals tailored to their fashion preferences.",
+      "Provided timely updates on exclusive brand discounts, thoughtfully curated to align with the audience's personal style goals and budget-friendly must-haves. Helped clients make intentional purchases by connecting them with stylish deals tailored to their fashion preferences.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -138,7 +139,7 @@ const graphicDesignProjects = [
     media: "gd media/brand identity.png",
     type: "image",
     description:
-      "The brand identity for ACAKÉ blends whimsical charm with sophistication. The logo creatively combines the letter A with a cupcake silhouette, establishing a strong, memorable symbol. Typography choices include the refined Amoria and the friendly Violina, balancing elegance with approachability. The pastel color palette—featuring blue (#578DA8), mint (#CAE5E7), blush (#FDE8EC), and rose (#D1767F)—evokes warmth and delight. The design is reinforced with custom patterns, minimal iconography, and mockups on packaging and signage, ensuring brand consistency across all touchpoints.",
+      "The brand identity for ACAKÉ blends whimsical charm with sophistication. The logo creatively combines the letter A with a cupcake silhouette, establishing a strong, memorable symbol. Typography choices include the refined Amoria and the friendly Violina, balancing elegance with approachability.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -146,7 +147,7 @@ const graphicDesignProjects = [
     media: "gd media/event poster.png",
     type: "image",
     description:
-      "The poster design radiates bold luxury and energy, aligning with the upscale and lively vibe of the event. The central figure of Uncle Waffles is styled in red fur and gold accessories, creating a high-fashion focal point. Typography is a mix of modern sans-serif for key details and elegant script for the word Sunday, adding contrast and flair. The use of layering, soft smoke texture, and strategic lighting enhances depth and drama. Social media icons, contact info, and the website are neatly integrated for accessibility without cluttering the layout. Overall, the design captures attention and communicates the exclusivity and energy of the event.",
+      "The poster design radiates bold luxury and energy, aligning with the upscale and lively vibe of the event. The central figure of Uncle Waffles is styled in red fur and gold accessories, creating a high-fashion focal point.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -154,7 +155,7 @@ const graphicDesignProjects = [
     media: "gd media/art poster.png",
     type: "image",
     description:
-      "This artwork fuses cybernetic aesthetics with surrealism, using a bold palette of teal, orange, and chrome to create a hypnotic, reflective surface effect. The smooth gradients and abstract patterning over the face and body suggest a synthetic or augmented being, blurring the line between human and machine. The sharp detail of the eyelashes and the soft, smoky trail from the cigarette contrast with the hard, glassy textures, giving the piece a layered sense of realism and fantasy. With its expressive elegance and modern edge, the design evokes both emotional depth and high-concept style, making it ideal for contemporary art exhibitions, wall art decor, or album artwork.",
+      "This artwork fuses cybernetic aesthetics with surrealism, using a bold palette of teal, orange, and chrome to create a hypnotic, reflective surface effect. The smooth gradients and abstract patterning suggest a synthetic or augmented being.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -162,7 +163,7 @@ const graphicDesignProjects = [
     media: "gd media/web design.png",
     type: "image",
     description:
-      "This web design features a warm, inviting aesthetic that blends soft pastel colors with high-quality food imagery to create an engaging user experience. The homepage welcomes visitors with a hero image of fresh pastries and a call-to-action button. Clear navigation links at the top provide easy access to different sections like bakery, drinks, and shop. Below, illustrated icons categorize offerings such as cakes, bread, iced tea, and coffee. The featured menu section presents products with playful names, enticing visuals, prices, and “Order Now” buttons for a seamless shopping experience. The layout is clean, responsive, and visually consistent with the ACAKÉ brand identity.",
+      "This web design features a warm, inviting aesthetic that blends soft pastel colors with high-quality food imagery to create an engaging user experience. The homepage welcomes visitors with a hero image of fresh pastries and a clear call-to-action.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -170,7 +171,7 @@ const graphicDesignProjects = [
     media: "gd media/tshirt design.png",
     type: "image",
     description:
-      "This design uses a deep red monochrome palette with layered vector effects to create a gritty, high-contrast image that radiates confidence and rebellion. The artwork captures Rihanna mid-expression—playful, fierce, and unapologetic—encapsulating her Bad Gal Riri persona. Text is vertically aligned along the right side in a bold, outlined font, enhancing the visual punch. The raw-edged border and central focus on facial expression add to the edgy, underground vibe, making it perfect for streetwear or limited edition fashion merchandise.",
+      "This design uses a deep red monochrome palette with layered vector effects to create a gritty, high-contrast image that radiates confidence and rebellion. The artwork captures Rihanna mid-expression—playful, fierce, and unapologetic.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -178,7 +179,7 @@ const graphicDesignProjects = [
     media: "gd media/ice cream promo.png",
     type: "image",
     description:
-      "This design blends elegance and flavor with a rich green palette inspired by matcha. The swirling soft-serve cone takes center stage, emphasized by a stylized background of flowing clouds and traditional Eastern motifs, reinforcing the Zen theme. Gold and lime green typography adds contrast and sophistication, while the promotional message invites customers to try the new flavor. The layout is clean yet dynamic, combining modern design with serene visual cues to evoke a sense of calm indulgence—perfectly aligning with the product's essence.",
+      "This design blends elegance and flavor with a rich green palette inspired by matcha. The swirling soft-serve cone takes center stage, emphasized by a stylized background of flowing clouds and traditional Eastern motifs.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -186,7 +187,7 @@ const graphicDesignProjects = [
     media: "gd media/fast food promo.png",
     type: "image",
     description:
-      "This bold and energetic layout uses high-contrast colors—black, orange, and white—to grab attention and emphasize urgency with the #limitededition tag. The food imagery is vibrant, detailed, and mouth-watering, showcasing each item in the combo with visual clarity and appeal. Typography is bold and dynamic, with key phrases like THE HOLY GRAIL and R195 standing out for instant recognition. The Click & Collect badge makes the offer actionable, while the overall design balances impact with easy readability, making it perfect for social media or in-store promotion.",
+      "This bold and energetic layout uses high-contrast colors—black, orange, and white—to grab attention and emphasize urgency with the #limitededition tag. The food imagery is vibrant, detailed, and mouth-watering.",
     link: "https://your-portfolio-link.com",
   },
   {
@@ -194,12 +195,12 @@ const graphicDesignProjects = [
     media: "gd media/drink promo.png",
     type: "image",
     description:
-      "This design radiates luxury and allure through its rich red color scheme and floral illustrations. The deep crimson mocktail, served in a faceted glass and garnished with dark cherries, captures immediate attention. Elegant typography contrasts script and bold sans-serif fonts, creating a sense of sophistication and drama. The floral motifs subtly frame the layout, enhancing the romantic and indulgent feel of the design. Perfect for upscale branding, this visual positions Scarlet Sin as a must-try flavor in a premium mocktail experience.",
+      "This design radiates luxury and allure through its rich red color scheme and floral illustrations. The deep crimson mocktail, served in a faceted glass and garnished with dark cherries, captures immediate attention.",
     link: "https://your-portfolio-link.com",
   },
 ];
 
-const modal = document.getElementById("project-modal");
+const projectModal = document.getElementById("project-modal");
 const modalTitle = document.getElementById("modal-title");
 const modalText = document.getElementById("modal-text");
 const modalLink = document.getElementById("modal-link");
@@ -208,25 +209,26 @@ const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const closeBtn = document.querySelector(".close-btn");
 
-let currentIndex = 0;
-let currentProjectList = [];
+let currentProjectIndex = 0;
+let currentProjectArray = [];
 
-const specificMedia = [
+const specialVideos = [
   "vs ps media/steal her look.mp4",
   "vs ps media/virtual haul.mp4",
   "vs ps media/what would you wear.mp4",
   "vs ps media/discount alert.mp4",
 ];
 
-function openModal(index, projectList) {
-  currentIndex = index;
-  currentProjectList = projectList;
+function openProjectModal(index, projectArray) {
+  currentProjectIndex = index;
+  currentProjectArray = projectArray;
   updateModalContent();
-  modal.style.display = "flex";
+  projectModal.style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 
 function updateModalContent() {
-  const project = currentProjectList[currentIndex];
+  const project = currentProjectArray[currentProjectIndex];
 
   modalTitle.textContent = project.title;
   modalText.textContent = project.description;
@@ -236,85 +238,90 @@ function updateModalContent() {
 
   if (project.type === "video") {
     const video = document.createElement("video");
-    video.setAttribute("controls", "true");
-    video.innerHTML = `<source src="${project.media}" type="video/mp4">Your browser does not support the video tag.`;
+    video.setAttribute("controls", "");
+    const source = document.createElement("source");
+    source.src = project.media;
+    source.type = "video/mp4";
+    video.appendChild(source);
+    video.appendChild(
+      document.createTextNode("Your browser does not support the video tag.")
+    );
 
-    if (specificMedia.includes(project.media)) {
+    if (specialVideos.includes(project.media)) {
       video.style.width = "70%";
       video.style.height = "70%";
-      video.classList.add("specific-video-gap");
     }
 
     modalMediaContainer.appendChild(video);
   } else {
     const img = document.createElement("img");
-    img.setAttribute("src", project.media);
-    img.setAttribute("alt", project.title);
+    img.src = project.media;
+    img.alt = project.title;
     modalMediaContainer.appendChild(img);
   }
 }
 
-nextBtn.addEventListener("click", () => {
-  currentIndex = (currentIndex + 1) % currentProjectList.length;
+function navigateProjects(direction) {
+  if (direction === "next") {
+    currentProjectIndex =
+      (currentProjectIndex + 1) % currentProjectArray.length;
+  } else {
+    currentProjectIndex =
+      (currentProjectIndex - 1 + currentProjectArray.length) %
+      currentProjectArray.length;
+  }
   updateModalContent();
+}
+
+function closeProjectModal() {
+  projectModal.style.display = "none";
+  document.body.style.overflow = "";
+}
+
+nextBtn.addEventListener("click", () => navigateProjects("next"));
+prevBtn.addEventListener("click", () => navigateProjects("prev"));
+closeBtn.addEventListener("click", closeProjectModal);
+
+window.addEventListener("click", (event) => {
+  if (event.target === projectModal) {
+    closeProjectModal();
+  }
 });
 
-prevBtn.addEventListener("click", () => {
-  currentIndex =
-    (currentIndex - 1 + currentProjectList.length) % currentProjectList.length;
-  updateModalContent();
-});
-
-closeBtn.addEventListener("click", () => {
-  modal.style.display = "none";
+document.addEventListener("keydown", (event) => {
+  if (projectModal.style.display === "flex") {
+    if (event.key === "Escape") {
+      closeProjectModal();
+    } else if (event.key === "ArrowRight") {
+      navigateProjects("next");
+    } else if (event.key === "ArrowLeft") {
+      navigateProjects("prev");
+    }
+  }
 });
 
 document
   .querySelectorAll("#developer-projects .view-project")
   .forEach((btn, index) => {
-    btn.addEventListener("click", () => openModal(index, developerProjects));
+    btn.addEventListener("click", () =>
+      openProjectModal(index, developerProjects)
+    );
   });
 
 document
   .querySelectorAll("#image-video-projects .view-project")
   .forEach((btn, index) => {
-    btn.addEventListener("click", () => openModal(index, imageVideoProjects));
+    btn.addEventListener("click", () =>
+      openProjectModal(index, imageVideoProjects)
+    );
   });
 
 document
   .querySelectorAll("#graphic-design-projects .view-project")
   .forEach((btn, index) => {
     btn.addEventListener("click", () =>
-      openModal(index, graphicDesignProjects)
+      openProjectModal(index, graphicDesignProjects)
     );
-  });
-
-const sections = document.querySelectorAll("section");
-
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-      }
-    });
-  },
-  { threshold: 0.5 }
-);
-
-sections.forEach((section) => {
-  observer.observe(section);
-});
-
-document
-  .getElementById("contact-form")
-  .addEventListener("submit", function (e) {
-    e.preventDefault();
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
-
-    window.location.href = `mailto:ninankhwashu@gmail.com?subject=Message from ${name}&body=${message} (Sent from ${email})`;
   });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -327,67 +334,378 @@ document.addEventListener("DOMContentLoaded", function () {
   const prevBtn = document.querySelector(".testimonial-prev");
   const nextBtn = document.querySelector(".testimonial-next");
 
-  let currentIndex = 0;
+  let currentTestimonialIndex = 0;
   const testimonialImages = testimonialCards.map(
     (card) => card.querySelector("img").src
   );
 
-  testimonialCards.forEach((card, index) => {
-    card.addEventListener("click", function () {
-      currentIndex = index;
-      updatePopupImage();
-      testimonialPopup.classList.add("active");
-      document.body.style.overflow = "hidden";
-    });
-  });
-
-  function updatePopupImage() {
-    popupImg.src = testimonialImages[currentIndex];
+  function openTestimonialPopup(index) {
+    currentTestimonialIndex = index;
+    updateTestimonialImage();
+    testimonialPopup.classList.add("active");
+    document.body.style.overflow = "hidden";
   }
 
-  function showNext() {
-    currentIndex = (currentIndex + 1) % testimonialImages.length;
-    updatePopupImage();
+  function updateTestimonialImage() {
+    popupImg.src = testimonialImages[currentTestimonialIndex];
   }
 
-  function showPrev() {
-    currentIndex =
-      (currentIndex - 1 + testimonialImages.length) % testimonialImages.length;
-    updatePopupImage();
-  }
-
-  nextBtn.addEventListener("click", function (e) {
-    e.stopPropagation();
-    showNext();
-  });
-
-  prevBtn.addEventListener("click", function (e) {
-    e.stopPropagation();
-    showPrev();
-  });
-
-  document.addEventListener("keydown", function (e) {
-    if (!testimonialPopup.classList.contains("active")) return;
-
-    if (e.key === "ArrowRight") {
-      showNext();
-    } else if (e.key === "ArrowLeft") {
-      showPrev();
-    } else if (e.key === "Escape") {
-      closePopup();
+  function navigateTestimonials(direction) {
+    if (direction === "next") {
+      currentTestimonialIndex =
+        (currentTestimonialIndex + 1) % testimonialImages.length;
+    } else {
+      currentTestimonialIndex =
+        (currentTestimonialIndex - 1 + testimonialImages.length) %
+        testimonialImages.length;
     }
-  });
+    updateTestimonialImage();
+  }
 
-  function closePopup() {
+  function closeTestimonialPopup() {
     testimonialPopup.classList.remove("active");
     document.body.style.overflow = "";
   }
 
-  closeBtn.addEventListener("click", closePopup);
+  testimonialCards.forEach((card, index) => {
+    card.addEventListener("click", () => openTestimonialPopup(index));
+  });
 
-  testimonialPopup.addEventListener("click", function (e) {
-    if (e.target === this) {
-      closePopup();
+  nextBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    navigateTestimonials("next");
+  });
+
+  prevBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    navigateTestimonials("prev");
+  });
+
+  closeBtn.addEventListener("click", closeTestimonialPopup);
+
+  testimonialPopup.addEventListener("click", (e) => {
+    if (e.target === testimonialPopup) {
+      closeTestimonialPopup();
     }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (testimonialPopup.classList.contains("active")) {
+      if (e.key === "Escape") {
+        closeTestimonialPopup();
+      } else if (e.key === "ArrowRight") {
+        navigateTestimonials("next");
+      } else if (e.key === "ArrowLeft") {
+        navigateTestimonials("prev");
+      }
+    }
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const emailElement = document.querySelector(".copy-email");
+  if (emailElement) {
+    emailElement.addEventListener("click", function () {
+      const email = "ninankhwashu@gmail.com";
+
+      const textarea = document.createElement("textarea");
+      textarea.value = email;
+      textarea.style.position = "fixed"; // Prevent scrolling to bottom
+      document.body.appendChild(textarea);
+      textarea.select();
+
+      try {
+        const successful = document.execCommand("copy");
+        if (successful) {
+          const originalText = emailElement.textContent;
+          emailElement.textContent = "Copied!";
+          setTimeout(() => {
+            emailElement.textContent = originalText;
+          }, 2000);
+        }
+      } catch (err) {
+        console.error("Failed to copy email: ", err);
+      }
+
+      document.body.removeChild(textarea);
+    });
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector("form[name='contact']");
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      const notification = document.createElement("div");
+      notification.className = "form-notification";
+      notification.textContent =
+        "Thank you for your message! I will get back to you as soon as I can.";
+      document.body.appendChild(notification);
+
+      setTimeout(() => {
+        notification.style.opacity = "0";
+        setTimeout(() => notification.remove(), 300);
+      }, 3000);
+    });
+  }
+
+  if (window.location.search.includes("form-submitted=true")) {
+    const notification = document.createElement("div");
+    notification.className = "form-notification";
+    notification.textContent =
+      "Thank you for your message! I will get back to you soon.";
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+      notification.style.opacity = "0";
+      setTimeout(() => notification.remove(), 300);
+    }, 3000);
+
+    history.replaceState(null, "", window.location.pathname);
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const timelineData = {
+    2015: {
+      title: "High School Graduation",
+      description:
+        "Completed my high school education with honors in Mathematics and Computer Science.",
+    },
+    2016: {
+      title: "Started University",
+      description:
+        "Began my Bachelor's degree in Computer Science at University of Pretoria.",
+    },
+    2018: {
+      title: "First Internship",
+      description:
+        "Completed a summer internship at a local tech startup, working on front-end development.",
+    },
+    2019: {
+      title: "Study Abroad",
+      description:
+        "Participated in an exchange program at University of Cape Town, focusing on AI fundamentals.",
+    },
+    2020: {
+      title: "Freelance Work Begins",
+      description:
+        "Started taking freelance projects in web development and graphic design.",
+    },
+    2021: {
+      title: "Bachelor's Degree Completed",
+      description:
+        "Graduated with a BSc in Computer Science, specializing in Human-Computer Interaction.",
+    },
+    2022: {
+      title: "First Full-time Job",
+      description:
+        "Joined XYZ Tech as a Junior Front-end Developer, working on e-commerce platforms.",
+    },
+    2024: {
+      title: "Career Advancement",
+      description:
+        "Promoted to Senior Developer role, leading a team of 5 developers on major projects.",
+    },
+    2025: {
+      title: "Current Position",
+      description:
+        "Working as a Full Stack Developer at ABC Innovations, focusing on React and Node.js applications.",
+    },
+    FUTURE: {
+      title: "Future Goals",
+      description:
+        "Planning to pursue a Master's degree in AI while continuing to grow as a tech lead and mentor.",
+    },
+  };
+
+  const years = [
+    "2015",
+    "2016",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2024",
+    "2025",
+    "FUTURE",
+  ];
+
+  const container = document.getElementById("particles");
+  const containerRect = container.getBoundingClientRect();
+  const particles = [];
+
+  years.forEach((year) => {
+    const particle = document.createElement("div");
+    particle.className = `timeline-particle ${
+      year === "FUTURE" ? "future" : ""
+    }`;
+    particle.textContent = year;
+    particle.dataset.year = year;
+
+    const size = 90;
+    const x = Math.random() * (containerRect.width - size * 2) + size;
+    const y = Math.random() * (containerRect.height - size * 2) + size;
+
+    particle.style.left = `${x}px`;
+    particle.style.top = `${y}px`;
+
+    container.appendChild(particle);
+    particles.push({
+      element: particle,
+      x: x,
+      y: y,
+      vx: Math.random() * 3 - 1,
+      vy: Math.random() * 3 - 1,
+      year: year,
+    });
+  });
+
+  function animateParticles() {
+    const width = containerRect.width;
+    const height = containerRect.height;
+    const particleSize = 80;
+
+    particles.forEach((p) => {
+      p.x += p.vx * 0.8;
+      p.y += p.vy * 0.8;
+
+      if (p.x <= 0 || p.x >= width - particleSize) {
+        p.vx *= -0.9;
+        p.x = p.x <= 0 ? 0 : width - particleSize;
+      }
+
+      if (p.y <= 0 || p.y >= height - particleSize) {
+        p.vy *= -0.9;
+        p.y = p.y <= 0 ? 0 : height - particleSize;
+      }
+
+      p.element.style.left = `${p.x}px`;
+      p.element.style.top = `${p.y}px`;
+    });
+
+    requestAnimationFrame(animateParticles);
+  }
+
+  animateParticles();
+
+  const timelineModal = document.getElementById("timeline-modal");
+  const modalYear = document.querySelector(".modal-year");
+  const modalTitle = document.querySelector(".modal-title");
+  const modalDescription = document.querySelector(".modal-description");
+  const closeModal = document.querySelector(".close-modal");
+  const prevYearBtn = document.querySelector(".prev-year");
+  const nextYearBtn = document.querySelector(".next-year");
+
+  let currentYearIndex = 0;
+
+  function openTimelineModal(year) {
+    currentYearIndex = years.indexOf(year);
+    updateTimelineModalContent();
+    timelineModal.classList.add("active");
+    document.body.style.overflow = "hidden";
+  }
+
+  function updateTimelineModalContent() {
+    const year = years[currentYearIndex];
+    const data = timelineData[year];
+
+    modalYear.textContent = year;
+    modalTitle.textContent = data.title;
+    modalDescription.textContent = data.description;
+  }
+
+  function navigateYears(direction) {
+    if (direction === "prev") {
+      currentYearIndex = (currentYearIndex - 1 + years.length) % years.length;
+    } else {
+      currentYearIndex = (currentYearIndex + 1) % years.length;
+    }
+    updateTimelineModalContent();
+  }
+
+  function closeTimelineModal() {
+    timelineModal.classList.remove("active");
+    document.body.style.overflow = "";
+  }
+
+  particles.forEach((p) => {
+    p.element.addEventListener("click", () => openTimelineModal(p.year));
+  });
+
+  closeModal.addEventListener("click", closeTimelineModal);
+  prevYearBtn.addEventListener("click", () => navigateYears("prev"));
+  nextYearBtn.addEventListener("click", () => navigateYears("next"));
+
+  timelineModal.addEventListener("click", (e) => {
+    if (e.target === timelineModal) {
+      closeTimelineModal();
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (timelineModal.classList.contains("active")) {
+      if (e.key === "Escape") {
+        closeTimelineModal();
+      } else if (e.key === "ArrowLeft") {
+        navigateYears("prev");
+      } else if (e.key === "ArrowRight") {
+        navigateYears("next");
+      }
+    }
+  });
+
+  document.getElementById("download-cv").addEventListener("click", function () {
+    // 1. Create download link
+    const cvUrl = "media/cv.pdf"; // Path to your CV
+    const link = document.createElement("a");
+    link.href = cvUrl;
+    link.download = "Nina-Nkhwashu-CV.pdf"; // Suggested filename for users
+    link.style.display = "none"; // Hide the link
+
+    // 2. Create notification
+    const notification = document.createElement("div");
+    notification.textContent = "Download started!";
+    notification.style.position = "fixed";
+    notification.style.bottom = "20px";
+    notification.style.left = "50%";
+    notification.style.transform = "translateX(-50%)";
+    notification.style.backgroundColor = "#1abc9c";
+    notification.style.color = "white";
+    notification.style.padding = "10px 20px";
+    notification.style.borderRadius = "5px";
+    notification.style.zIndex = "1000";
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+      document.body.removeChild(link);
+      notification.style.opacity = "0";
+      setTimeout(() => document.body.removeChild(notification), 300);
+    }, 3000);
+  });
+
+  window.addEventListener("resize", () => {
+    containerRect = container.getBoundingClientRect();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+
+  document.querySelectorAll("section").forEach((section) => {
+    observer.observe(section);
   });
 });
