@@ -550,8 +550,8 @@ body.dark-mode .timeline-container {
 
 .timeline-particle {
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: linear-gradient(135deg, #1abc9c, #3498db);
   display: flex;
@@ -1088,6 +1088,7 @@ body.dark-mode .closing-text h2 {
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
+  text-align: center;
   color: white;
   background-color: #1abc9c;
   border: 2px solid white;
