@@ -5,12 +5,12 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   background-color: white;
-  color: black;
+  color: #000000;
   transition: background-color 0.5s, color 0.5s;
 }
 
 body.dark-mode {
-  background-color: #121212;
+  background-color: #000000;
   color: white;
 }
 
@@ -110,6 +110,8 @@ nav .nav-right a:hover {
   object-fit: cover;
 }
 
+
+
 .spotlight-text {
   margin-left: 50px;
 }
@@ -124,7 +126,7 @@ nav .nav-right a:hover {
 }
 
 .spotlight-text p {
-  color: #50d6fe;
+  color: #ffffff;
   text-shadow: #000000 5px 5px 5px;
   font-size: 18px;
   margin-bottom: 30px;
@@ -134,7 +136,6 @@ nav .nav-right a:hover {
   padding: 10px 20px;
   background-color: #1e5dac;
   color: white;
-
   text-decoration: none;
   border-radius: 5px;
   font-size: 16px;
@@ -227,7 +228,7 @@ body.dark-mode #about {
 
 #projects {
   padding: 50px;
-  background-color: #121212;
+  background-color: #000000;
 }
 
 body.dark-mode #projects {
@@ -241,8 +242,12 @@ body.dark-mode #projects {
 }
 
 .developer-title {
-  color: #c0e0ff;
+  color: #e4aaff;
 }
+
+.image-video-editor-title{color: #ffeb88;}
+
+.graphic-designer-title{color: #0da73b;}
 
 .projects-container {
   max-width: 1200px;
@@ -254,6 +259,8 @@ body.dark-mode #projects {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+
+
 
 .project-card {
   background-color: #000000;
@@ -269,7 +276,38 @@ body.dark-mode .project-card {
 
 .project-card:hover {
   transform: scale(1.05);
+  
 }
+
+
+.developer .project-card {
+  border: #e4aaff 2px solid;
+}
+
+.image-video-editor .project-card {
+  border: #ffeb88 2px solid;
+}
+
+.graphic-designer .project-card {
+  border: #0da73b 2px solid;
+}
+
+
+.developer .project-card .view-project {
+  background-color: #e4aaff;
+    color: #000000;
+}
+
+.image-video-editor .project-card .view-project {
+  background-color: #ffeb88;
+  color: #000000;
+}
+
+.graphic-designer .project-card .view-project {
+  background-color: #0da73b;
+  color: #ffffff;
+}
+
 
 .project-thumbnail img {
   width: 100%;
@@ -289,6 +327,28 @@ body.dark-mode .project-card {
   margin: 15px 0 10px;
 }
 
+.developer .project-card h4 {
+  color: #e4aaff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin: 15px 0 10px;
+}
+
+.image-video-editor .project-card h4 {
+  color: #ffeb88;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin: 15px 0 10px;
+}
+
+
+.graphic-designer .project-card h4 {
+  color: #0da73b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin: 15px 0 10px;
+}
+
 .project-card p {
   color: white;
   font-size: 16px;
@@ -297,7 +357,7 @@ body.dark-mode .project-card {
 
 .view-project {
   padding: 10px 20px;
-  background-color: #1abc9c;
+  background-color: #1e5dac;
   color: white;
   border: none;
   border-radius: 5px;
@@ -306,7 +366,95 @@ body.dark-mode .project-card {
 }
 
 .view-project:hover {
+  background-color: #65fe08;
+    color: #ffffff;
+
+}
+
+.developer .project-card .view-project:hover{
+  background-color: #65fe08;
+  color: #ffffff;
+}
+
+.image-video-editor .project-card .view-project:hover{
+  background-color: #65fe08;
+  color: #ffffff;
+}
+
+.graphic-designer .project-card .view-project:hover{
+  background-color: #65fe08;
+  color: #ffffff;
+}
+
+
+.see-more {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.see-more a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.see-more a:hover {
   background-color: #16a085;
+  transform: translateY(-2px);
+}
+
+
+.developer .see-more a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e4aaff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.image-video-editor .see-more a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffeb88;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.graphic-designer .see-more a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0da73b;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.developer .see-more a:hover {
+  background-color: #65fe08;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.image-video-editor .see-more a:hover {
+  background-color: #65fe08;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.graphic-designer .see-more a:hover {
+  background-color: #65fe08;
+  color: #ffffff;
+  transform: translateY(-2px);
 }
 
 .modal {
@@ -324,7 +472,7 @@ body.dark-mode .project-card {
 }
 
 .modal-content {
-  background: pink;
+  background-color: #000000;
   width: 70%;
   height: 70%;
   max-width: 900px;
@@ -342,6 +490,8 @@ body.dark-mode .project-card {
   align-items: center;
   gap: 20px;
 }
+
+
 
 .modal-media {
   width: 50%;
@@ -364,17 +514,23 @@ body.dark-mode .project-card {
 
 .modal-description h2 {
   margin-bottom: 10px;
+  color: #65fe08;
 }
+
+
 
 .modal-description a {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 15px;
-  background: #1abc9c;
+  background: #1e5dac;
   color: white;
   text-decoration: none;
   border-radius: 5px;
 }
+
+.modal-description a:hover{ background-color: #65fe08;
+color: #ffffff;}
 
 .prev-btn,
 .next-btn,
@@ -384,10 +540,14 @@ body.dark-mode .project-card {
   transform: translateY(-50%);
   background: none;
   border: none;
-  color: red;
+  color: #50d6fe;
   font-size: 30px;
   cursor: pointer;
 }
+
+.prev-btn:hover{color: #65fe08;}
+.next-btn:hover{color: #65fe08;}
+.close-btn:hover{color: #65fe08;}
 
 .prev-btn {
   left: -50px;
@@ -408,6 +568,8 @@ body.dark-mode .project-card {
   text-align: center;
 }
 
+.testimonial-gallery {color: #ffeb88;}
+
 .testimonial-row {
   display: flex;
   justify-content: center;
@@ -423,26 +585,25 @@ body.dark-mode .project-card {
   position: relative;
   cursor: pointer;
   transition: transform 0.3s;
-  animation: pulseGlow 3s infinite ease-in-out;
-  box-shadow: 0 0 20px rgba(26, 188, 156, 0.6);
+  animation: pulseGlow 1s infinite ease-in-out;
+  box-shadow: 0 0 20px rgba(255, 235, 136, 0.6);
 }
 
 @keyframes pulseGlow {
   0%,
   100% {
-    box-shadow: 0 0 15px rgba(26, 188, 156, 0.7),
-      0 0 30px rgba(71, 133, 168, 0.4);
+    box-shadow: 0 0 15px rgba(255, 235, 136, 0.6),
+      0 0 30px rgba(255, 235, 136, 0.9);
   }
   50% {
-    box-shadow: 0 0 25px rgba(26, 188, 156, 0.9),
-      0 0 50px rgba(71, 133, 168, 0.6);
+    box-shadow: 0 0 25px rgba(255, 235, 136, 0.6),
+      0 0 50px rgba(255, 235, 136, 0.9);
   }
 }
 
 .testimonial-card:hover {
   transform: scale(1.05);
   animation: pulseGlow 1.5s infinite ease-in-out;
-  box-shadow: 0 0 30px rgba(26, 188, 156, 0.9), 0 0 60px rgba(71, 133, 168, 0.7);
 }
 
 body.dark-mode .testimonial-card {
@@ -495,27 +656,16 @@ body.dark-mode .testimonial-card {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
 }
 
-.testimonial-close {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: color 0.3s;
-}
-
 .testimonial-close:hover {
-  color: #1abc9c;
+  color: #65fe08;
 }
 
 .testimonial-nav {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: white;
-  font-size: 50px;
+  color: #50d6fe;
+  font-size: 30px;
   font-weight: bold;
   cursor: pointer;
   padding: 20px;
@@ -525,34 +675,48 @@ body.dark-mode .testimonial-card {
 }
 
 .testimonial-nav:hover {
-  color: #1abc9c;
+  color: #65fe08;
+}
+
+.testimonial-close {
+  position: absolute;
+  top: 30px;
+  right: 400px;
+  color: #50d6fe;
+  font-size: 40px;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
 .testimonial-prev {
-  left: 20px;
+  left: 400px;
 }
 
 .testimonial-next {
-  right: 20px;
+  right: 400px;
 }
+
+.testimonial-close:hover{color: #65fe08;}
+.testimonial-prev:hover{color: #65fe08;}
+.testimonial-next:hover{color: #65fe08;}
 
 #timeline {
   padding: 80px 20px;
-  background-color: #f8f9fa;
+  background-color:rgb(0, 0, 0, 0.9);
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
 body.dark-mode #timeline {
-  background-color: #121212;
+  background-color: #000000;
 }
 
 #timeline h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 36px;
   margin-bottom: 60px;
-  color: #2c3e50;
+  color: #65fe08;
   position: relative;
   z-index: 10;
 }
@@ -567,7 +731,8 @@ body.dark-mode #timeline h2 {
   max-width: 1200px;
   margin: 0 auto;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #000000;
+  border: rgba(101, 254, 8, 0.5) 2px solid;
   box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -590,7 +755,7 @@ body.dark-mode .timeline-container {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #1abc9c, #3498db);
+  background: linear-gradient(135deg, #50d6fe, #1e5dac);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -612,6 +777,7 @@ body.dark-mode .timeline-particle {
 .timeline-particle:hover {
   transform: scale(1.1);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  
 }
 
 .timeline-particle.future {
@@ -630,7 +796,7 @@ body.dark-mode .timeline-particle {
 
 .download-button {
   padding: 15px 30px;
-  background-color: #2c3e50;
+  background-color: red;
   color: white;
   border: none;
   border-radius: 50px;
@@ -651,6 +817,7 @@ body.dark-mode .download-button {
 .download-button:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  background-color: #65fe08;
 }
 
 .download-button i {
@@ -763,7 +930,7 @@ body.dark-mode .modal-title {
 .modal-description {
   font-size: 16px;
   line-height: 1.6;
-  color: #555;
+  color: #ffffff;
 }
 
 body.dark-mode .modal-description {
@@ -772,18 +939,18 @@ body.dark-mode .modal-description {
 
 #contact {
   padding: 80px 50px;
-  background-color: #ecf0f1;
+  background-color: #000000;
 }
 
 body.dark-mode #contact {
-  background-color: #1e1e1e;
+  background-color: #000000;
 }
 
 #contact h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 36px;
   margin-bottom: 50px;
-  color: #2c3e50;
+  color: #50d6fe;
   text-align: center;
 }
 
@@ -802,9 +969,10 @@ body.dark-mode #contact h2 {
 .contact-form-card,
 .info-card {
   flex: 1;
-  background-color: white;
+  background-color: #000000;
   padding: 40px;
   border-radius: 12px;
+  border: #50d6fe 2px solid;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   min-height: 600px;
   display: flex;
@@ -813,7 +981,7 @@ body.dark-mode #contact h2 {
 
 body.dark-mode .contact-form-card,
 body.dark-mode .info-card {
-  background-color: #2c2c2c;
+  background-color: #000000;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -831,19 +999,19 @@ body.dark-mode .info-card {
   display: block;
   margin-bottom: 8px;
   font-weight: 500;
-  color: #2c3e50;
-  font-size: 15px;
+  color: #50d6fe;
+  font-size: 20px;
 }
 
 body.dark-mode .form-group label {
-  color: #e0e0e0;
+  color: #50d6fe;
 }
 
 .form-group input,
 .form-group textarea {
-  width: 100%;
+  width: 94%;
   padding: 14px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #50d6fe;
   border-radius: 8px;
   font-size: 16px;
   background-color: #f9f9f9;
@@ -852,22 +1020,22 @@ body.dark-mode .form-group label {
 
 body.dark-mode .form-group input,
 body.dark-mode .form-group textarea {
-  background-color: #3a3a3a;
-  color: white;
+  background-color: #f9f9f9;
+  color: #000000;
   border-color: #444;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #1abc9c;
+  border-color: #65fe08;
   box-shadow: 0 0 0 2px rgba(26, 188, 156, 0.2);
 }
 
 .send-button {
   margin-top: auto;
   padding: 14px;
-  background-color: #1abc9c;
+  background-color: #1e5dac;
   color: white;
   border: none;
   border-radius: 8px;
@@ -878,7 +1046,7 @@ body.dark-mode .form-group textarea {
 }
 
 .send-button:hover {
-  background-color: #16a085;
+  background-color: #65fe08;
   transform: translateY(-2px);
 }
 
@@ -887,7 +1055,7 @@ body.dark-mode .form-group textarea {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #1abc9c;
+  background-color: #50d6fe;
   color: white;
   padding: 15px 25px;
   border-radius: 8px;
@@ -901,6 +1069,7 @@ body.dark-mode .form-group textarea {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  align-items: left;
 }
 
 .social-section {
@@ -911,7 +1080,7 @@ body.dark-mode .form-group textarea {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   margin-bottom: 25px;
-  color: #2c3e50;
+  color: #50d6fe;
   position: relative;
   display: inline-block;
 }
@@ -928,7 +1097,7 @@ body.dark-mode .social-section h3 {
   transform: translateX(-50%);
   width: 50px;
   height: 3px;
-  background-color: #1abc9c;
+  background-color: #65fe08;
 }
 
 .social-icons {
@@ -942,47 +1111,51 @@ body.dark-mode .social-section h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
+  text-decoration: none;
   border-radius: 50%;
-  background-color: #f5f5f5;
-  color: #2c3e50;
-  font-size: 20px;
+  background-color: #1e5dac;
+  color: #50d6fe;
+  font-size: 30px;
   transition: all 0.3s ease;
 }
 
 body.dark-mode .social-icons a {
-  background-color: #3a3a3a;
+  background-color: #50d6fe;
   color: white;
 }
 
 .social-icons a:hover {
-  background-color: #1abc9c;
+  background-color: #65fe08;
   color: white;
   transform: translateY(-5px);
 }
 
 .info-section {
+  
   display: flex;
   flex-direction: column;
   gap: 30px;
+  align-items: linear;
 }
 
 .info-item {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   align-items: flex-start;
+ 
 }
 
 .icon-wrapper {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: rgba(26, 188, 156, 0.1);
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #1abc9c;
+  color: #50d6fe;
   font-size: 20px;
   flex-shrink: 0;
 }
@@ -991,7 +1164,8 @@ body.dark-mode .social-icons a {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   margin-bottom: 5px;
-  color: #2c3e50;
+  color: #50d6fe;
+  justify-content: 
 }
 
 body.dark-mode .info-text h4 {
@@ -999,13 +1173,13 @@ body.dark-mode .info-text h4 {
 }
 
 .info-text p {
-  color: #666;
+  color: #ffffff;
   line-height: 1.5;
   margin: 0;
 }
 
 body.dark-mode .info-text p {
-  color: #b0b0b0;
+  color: #ffffff;
 }
 
 .copy-email {
@@ -1015,7 +1189,7 @@ body.dark-mode .info-text p {
 }
 
 .copy-email:hover {
-  color: #1abc9c;
+  color: #65fe08;
 }
 
 .copy-email::after {
@@ -1074,17 +1248,18 @@ section {
 
 #closing-section {
   padding: 100px 50px;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 body.dark-mode #closing-section {
-  background-color: #121212;
+  background-color:rgba(0, 0, 0, 0.9);
 }
 
 .closing-container {
+  
   display: flex;
   align-items: center;
   max-width: 1200px;
@@ -1098,14 +1273,14 @@ body.dark-mode #closing-section {
 
 .closing-text h2 {
   font-family: "Montserrat", sans-serif;
+  color:  #ffffff;
   font-size: 28px;
   font-weight: 500;
-  color: black;
   line-height: 1.4;
 }
 
 body.dark-mode .closing-text h2 {
-  color: white;
+  color: #ffffff;
 }
 
 .skills-cube {
@@ -1127,8 +1302,8 @@ body.dark-mode .closing-text h2 {
   font-size: 20px;
   text-align: center;
   color: white;
-  background-color: #1abc9c;
-  border: 2px solid white;
+  background-color: #65fe08;
+  border: 2px solid #50d6fe;
 }
 
 .front {
@@ -1160,7 +1335,7 @@ body.dark-mode .closing-text h2 {
 }
 
 footer {
-  background-color: #2c3e50;
+  background-color: #000000;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -1174,29 +1349,12 @@ footer {
 }
 
 .footer-content p {
+  color: #50d6fe;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-.see-more {
-  text-align: center;
-  margin-top: 30px;
-}
 
-.see-more a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #1abc9c;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-
-.see-more a:hover {
-  background-color: #16a085;
-  transform: translateY(-2px);
-}
 
 @media (max-width: 1200px) {
   .project-grid {
@@ -1275,4 +1433,5 @@ footer {
     top: 20px;
     right: 20px;
   }
-}
+
+
