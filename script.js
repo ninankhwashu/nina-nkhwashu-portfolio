@@ -1,4 +1,3 @@
-// Projects Data Arrays
 const developerProjects = [
   {
     title: "Arcane Chronicles",
@@ -410,7 +409,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const textarea = document.createElement("textarea");
       textarea.value = email;
-      textarea.style.position = "fixed"; // Prevent scrolling to bottom
+      textarea.style.position = "fixed";
       document.body.appendChild(textarea);
       textarea.select();
 
@@ -453,7 +452,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const notification = document.createElement("div");
     notification.className = "form-notification";
     notification.textContent =
-      "Thank you for your message! I will get back to you soon.";
+      "Thank you for your message! I will get back to you as soon as I can.";
     document.body.appendChild(notification);
 
     setTimeout(() => {
@@ -657,14 +656,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.getElementById("download-cv").addEventListener("click", function () {
-    // 1. Create download link
-    const cvUrl = "media/cv.pdf"; // Path to your CV
+    const cvUrl = "media/cv.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "Nina-Nkhwashu-CV.pdf"; // Suggested filename for users
-    link.style.display = "none"; // Hide the link
+    link.download = "Nina-Nkhwashu-CV.pdf";
+    link.style.display = "none";
 
-    // 2. Create notification
     const notification = document.createElement("div");
     notification.textContent = "Download started!";
     notification.style.position = "fixed";
