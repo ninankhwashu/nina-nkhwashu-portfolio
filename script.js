@@ -465,59 +465,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const timelineData = {
-    2015: {
-      title: "High School Graduation",
-      description:
-        "Completed my high school education with honors in Mathematics and Computer Science.",
-    },
-    2016: {
-      title: "Started University",
-      description:
-        "Began my Bachelor's degree in Computer Science at University of Pretoria.",
-    },
-    2018: {
-      title: "First Internship",
-      description:
-        "Completed a summer internship at a local tech startup, working on front-end development.",
-    },
-    2019: {
-      title: "Study Abroad",
-      description:
-        "Participated in an exchange program at University of Cape Town, focusing on AI fundamentals.",
-    },
-    2020: {
-      title: "Freelance Work Begins",
-      description:
-        "Started taking freelance projects in web development and graphic design.",
-    },
-    2021: {
-      title: "Bachelor's Degree Completed",
-      description:
-        "Graduated with a BSc in Computer Science, specializing in Human-Computer Interaction.",
-    },
-    2022: {
-      title: "First Full-time Job",
-      description:
-        "Joined XYZ Tech as a Junior Front-end Developer, working on e-commerce platforms.",
-    },
-    2024: {
-      title: "Career Advancement",
-      description:
-        "Promoted to Senior Developer role, leading a team of 5 developers on major projects.",
-    },
-    2025: {
-      title: "Current Position",
-      description:
-        "Working as a Full Stack Developer at ABC Innovations, focusing on React and Node.js applications.",
-    },
-    FUTURE: {
-      title: "Future Goals",
-      description:
-        "Planning to pursue a Master's degree in AI while continuing to grow as a tech lead and mentor.",
-    },
-  };
-
   const years = [
     "2015",
     "2016",
@@ -590,29 +537,29 @@ document.addEventListener("DOMContentLoaded", function () {
   animateParticles();
 
   const timelineModal = document.getElementById("timeline-modal");
-  const modalYear = document.querySelector(".modal-year");
-  const modalTitle = document.querySelector(".modal-title");
-  const modalDescription = document.querySelector(".modal-description");
   const closeModal = document.querySelector(".close-modal");
   const prevYearBtn = document.querySelector(".prev-year");
   const nextYearBtn = document.querySelector(".next-year");
+  const allContent = document.querySelectorAll(".timeline-content");
 
   let currentYearIndex = 0;
 
-  function openTimelineModal(year) {
-    currentYearIndex = years.indexOf(year);
-    updateTimelineModalContent();
-    timelineModal.classList.add("active");
-    document.body.style.overflow = "hidden";
+  function showContentForYear(year) {
+    allContent.forEach((content) => content.classList.remove("active"));
+
+    const contentToShow = document.querySelector(
+      `.timeline-content[data-year="${year}"]`
+    );
+    if (contentToShow) {
+      contentToShow.classList.add("active");
+      currentYearIndex = years.indexOf(year);
+    }
   }
 
-  function updateTimelineModalContent() {
-    const year = years[currentYearIndex];
-    const data = timelineData[year];
-
-    modalYear.textContent = year;
-    modalTitle.textContent = data.title;
-    modalDescription.textContent = data.description;
+  function openTimelineModal(year) {
+    showContentForYear(year);
+    timelineModal.classList.add("active");
+    document.body.style.overflow = "hidden";
   }
 
   function navigateYears(direction) {
@@ -621,7 +568,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       currentYearIndex = (currentYearIndex + 1) % years.length;
     }
-    updateTimelineModalContent();
+    showContentForYear(years[currentYearIndex]);
   }
 
   function closeTimelineModal() {
