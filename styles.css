@@ -779,11 +779,12 @@ body.dark-mode .timeline-particle {
 }
 
 .timeline-particle:hover {
-  transform: scale(1.1);
+  transform: scale(1.5);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  background-color: #65fe08;
 }
 
-.timeline-particle .future {
+.timeline-particle #future {
   background: linear-gradient(135deg, #e74c3c, #f39c12);
 }
 
@@ -799,7 +800,7 @@ body.dark-mode .timeline-particle {
 
 .download-button {
   padding: 15px 30px;
-  background-color: red;
+  background-color: #f1642e;
   color: white;
   border: none;
   border-radius: 50px;
@@ -939,7 +940,7 @@ body.dark-mode .timeline-modal .modal-content {
 .timeline-modal .modal-year {
   flex: 1;
   font-family: "Montserrat", sans-serif;
-  font-size: 72px;
+  font-size: 40px;
   font-weight: bold;
   color: #50d6fe;
   line-height: 1;
@@ -952,7 +953,7 @@ body.dark-mode .timeline-modal .modal-content {
 
 .timeline-modal .modal-title {
   font-family: "Montserrat", sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   margin: 0 0 20px 0;
   color: #65fe08;
 }
@@ -968,6 +969,18 @@ body.dark-mode .modal-title {
   display: block;
   margin: 0 auto;
   text-align: left;
+  max-width: fit-content;
+}
+
+.timeline-modal .modal-description em {
+  color: #50d6fe;
+}
+
+.timeline-modal .modal-description .bullet {
+  color: #f1642e;
+}
+.timeline-modal .modal-description .star {
+  color: #65fe08;
 }
 
 body.dark-mode .modal-description {
@@ -1171,9 +1184,9 @@ body.dark-mode .social-icons a {
 
 .info-section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   gap: 30px;
-  align-items: linear;
 }
 
 .info-item {
