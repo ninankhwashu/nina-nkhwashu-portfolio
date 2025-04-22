@@ -509,24 +509,34 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function animateParticles() {
+    const container = document.getElementById("particles");
+    const containerRect = container.getBoundingClientRect();
     const width = containerRect.width;
     const height = containerRect.height;
     const particleSize = 80;
 
     particles.forEach((p) => {
-      p.x += p.vx * 0.8;
-      p.y += p.vy * 0.8;
+      let nextX = p.x + p.vx;
+      let nextY = p.y + p.vy;
 
-      if (p.x <= 0 || p.x >= width - particleSize) {
+      if (nextX + particleSize > width) {
         p.vx *= -1;
-        p.x = p.x <= 0 ? 0 : width - particleSize;
+        nextX = width - particleSize;
+      } else if (nextX < 0) {
+        p.vx *= -1;
+        nextX = 0;
       }
 
-      if (p.y <= 0 || p.y >= height - particleSize) {
+      if (nextY + particleSize > height) {
         p.vy *= -1;
-        p.y = p.y <= 0 ? 0 : height - particleSize;
+        nextY = height - particleSize;
+      } else if (nextY < 0) {
+        p.vy *= -1;
+        nextY = 0;
       }
 
+      p.x = nextX;
+      p.y = nextY;
       p.element.style.left = `${p.x}px`;
       p.element.style.top = `${p.y}px`;
     });
