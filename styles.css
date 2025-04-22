@@ -779,12 +779,12 @@ body.dark-mode .timeline-particle {
 }
 
 .timeline-particle:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   background-color: #65fe08;
 }
 
-.timeline-particle #future {
+.timeline-particle.future {
   background: linear-gradient(135deg, #e74c3c, #f39c12);
 }
 
