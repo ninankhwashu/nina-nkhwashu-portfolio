@@ -518,12 +518,12 @@ document.addEventListener("DOMContentLoaded", function () {
       p.y += p.vy * 0.8;
 
       if (p.x <= 0 || p.x >= width - particleSize) {
-        p.vx *= -0.9;
+        p.vx *= -1;
         p.x = p.x <= 0 ? 0 : width - particleSize;
       }
 
       if (p.y <= 0 || p.y >= height - particleSize) {
-        p.vy *= -0.9;
+        p.vy *= -1;
         p.y = p.y <= 0 ? 0 : height - particleSize;
       }
 
