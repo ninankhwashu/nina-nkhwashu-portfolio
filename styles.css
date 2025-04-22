@@ -1016,7 +1016,6 @@ body.dark-mode #contact h2 {
   gap: 40px;
 }
 
-.contact-form-card,
 .info-card {
   flex: 1;
   background-color: #000000;
@@ -1024,95 +1023,14 @@ body.dark-mode #contact h2 {
   border-radius: 12px;
   border: #50d6fe 2px solid;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  min-height: 600px;
+  min-height: auto;
   display: flex;
   flex-direction: column;
 }
 
-body.dark-mode .contact-form-card,
 body.dark-mode .info-card {
   background-color: #000000;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-}
-
-.contact-form-card form {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.form-group {
-  margin-bottom: 25px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 500;
-  color: #50d6fe;
-  font-size: 20px;
-}
-
-body.dark-mode .form-group label {
-  color: #50d6fe;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 94%;
-  padding: 14px;
-  border: 1px solid #50d6fe;
-  border-radius: 8px;
-  font-size: 16px;
-  background-color: #f9f9f9;
-  transition: all 0.3s ease;
-}
-
-body.dark-mode .form-group input,
-body.dark-mode .form-group textarea {
-  background-color: #f9f9f9;
-  color: #000000;
-  border-color: #444;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: #65fe08;
-  box-shadow: 0 0 0 2px rgba(26, 188, 156, 0.2);
-}
-
-.send-button {
-  margin-top: auto;
-  padding: 14px;
-  background-color: #1e5dac;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.send-button:hover {
-  background-color: #65fe08;
-  transform: translateY(-2px);
-}
-
-.form-notification {
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #50d6fe;
-  color: white;
-  padding: 15px 25px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  z-index: 1000;
-  opacity: 1;
-  transition: opacity 0.3s ease;
 }
 
 .info-card {
@@ -1191,8 +1109,8 @@ body.dark-mode .social-icons a {
 
 .info-item {
   display: flex;
-  gap: 30px;
-  align-items: flex-start;
+  gap: 20px;
+  align-items: center;
 }
 
 .icon-wrapper {
@@ -1211,7 +1129,7 @@ body.dark-mode .social-icons a {
 .info-text h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  margin-bottom: 5px;
+  margin: 0px;
   color: #50d6fe;
 }
 
@@ -1227,6 +1145,10 @@ body.dark-mode .info-text h4 {
 
 body.dark-mode .info-text p {
   color: #ffffff;
+}
+
+.info-text {
+  flex: 1;
 }
 
 .copy-email {
@@ -1263,7 +1185,6 @@ body.dark-mode .info-text p {
     gap: 30px;
   }
 
-  .contact-form-card,
   .info-card {
     min-height: auto;
     padding: 30px;
