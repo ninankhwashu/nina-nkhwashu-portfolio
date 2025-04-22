@@ -130,6 +130,10 @@ nav .nav-right a:hover {
   margin-bottom: 30px;
 }
 
+.spotlight-text em {
+  color: #50d6fe;
+}
+
 .explore-button {
   padding: 10px 20px;
   background-color: #1e5dac;
