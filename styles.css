@@ -511,6 +511,10 @@ body.dark-mode .project-card {
   color: #65fe08;
 }
 
+.modal-description {
+  color: #ffffff;
+}
+
 .modal-description a {
   display: inline-block;
   margin-top: 15px;

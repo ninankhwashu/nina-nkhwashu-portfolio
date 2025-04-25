@@ -5,7 +5,7 @@ const developerProjects = [
     type: "video",
     description:
       "An immersive, character-based quiz game inspired by Arcane: League of Legends. Players test their knowledge of the series by answering character-based questions, unlocking rich lore & interactive visuals along the way.",
-    link: "https://github.com/ninankhwashu/arcane-quiz-game",
+    link: "https://arcanequizgame.netlify.app",
   },
   {
     title: "The Lyrithium Engine",
@@ -13,15 +13,15 @@ const developerProjects = [
     type: "video",
     description:
       "An elegant AI-powered poem generator that transforms user prompts into short, romantic verses with a single click. It uses natural language processing to craft personalized 8-line poems in real time.",
-    link: "https://github.com/ninankhwashu/ai-poem-generator",
+    link: "https://thelyrithiumengine.netlify.app",
   },
   {
-    title: "Aurallune",
-    media: "dev media/Arcane Chronicles.mp4",
+    title: "Devallune",
+    media: "dev media/Devallune.mp4",
     type: "video",
     description:
-      "An emotion-driven music discovery app that curates personalized song suggestions using the Spotify API, based on how the user feels in the moment.",
-    link: "https://your-portfolio-link.com",
+      "A responsive web app designed to inspire developers who feel stuck or need a push to start building. With a single click, users receive a random challenge, ranging from unconventional app ideas to quirky UI constraints (e.g. Build a weather app that speaks the forecast out loud or Create a form that changes based on typing speed.",
+    link: "https://devallune.netlify.app",
   },
   {
     title: "Pathpholio",
@@ -29,7 +29,7 @@ const developerProjects = [
     type: "video",
     description:
       "An interactive job application tracker that helps users organize and monitor their job hunt in one place, with smart filtering and localStorage-powered persistence.",
-    link: "https://github.com/ninankhwashu/interactive-job-application-tracker",
+    link: "https://pathpholio.netlify.app",
   },
   {
     title: "Standard Bank: UX Login Experience",
@@ -37,7 +37,7 @@ const developerProjects = [
     type: "video",
     description:
       "A modern and responsive login interface designed to enhance user onboarding and authentication flow for digital banking platforms using Standard Bank as a case study.",
-    link: "https://github.com/ninankhwashu/bank-user-login",
+    link: "https://stdbankuserlogin.netlify.app",
   },
   {
     title: "Pexzzles",
@@ -45,15 +45,15 @@ const developerProjects = [
     type: "video",
     description:
       "A drag-and-drop photo puzzle game that lets users search for images using the Pexels API and solve them as customizable grid-based puzzles.",
-    link: "https://github.com/ninankhwashu/photo-puzzle-game",
+    link: "https://pexzzles.netlify.app",
   },
   {
-    title: "YNNE",
-    media: "dev media/Arcane Chronicles.mp4",
+    title: "Tech Hub Solutions",
+    media: "dev media/Tech Hub Solutions.mp4",
     type: "video",
     description:
-      "A bold and immersive landing page crafted for a gamer persona—designed to capture attention, radiate personality, and instantly communicate gamer identity.",
-    link: "https://your-portfolio-link.com",
+      "Tech Hub Solutions is a professionally crafted website that showcases the offerings of an office supply company. The site includes dynamic product filtering, a customer testimonial slider, animated business stats, and interactive modals for service requests and cart actions.",
+    link: "https://techhubsolutions.netlify.app",
   },
   {
     title: "FNB: UX Appointment Booking Experience",
@@ -61,7 +61,7 @@ const developerProjects = [
     type: "video",
     description:
       "A user-friendly interface designed to simplify and speed up the process of booking in-branch banking appointments without the hassle of waiting in queues.",
-    link: "https://github.com/ninankhwashu/bank-appointment-online-booking",
+    link: "https://fnbappointmentbooking.netlify.app",
   },
 ];
 
@@ -72,7 +72,7 @@ const imageVideoProjects = [
     type: "image",
     description:
       "Provided personalized fashion solutions tailored to the unique preferences, lifestyles, and needs of private clients. Delivered curated virtual styling sessions and personal shopping services, offering expert guidance on wardrobe selection, trend integration, and occasion-specific outfits—all through a seamless online experience.",
-    link: "https://your-portfolio-link.com",
+    link: "vs ps media/personal styling.jpg",
   },
   {
     title: "Steal Her Look",
@@ -80,7 +80,7 @@ const imageVideoProjects = [
     type: "video",
     description:
       "Created shoppable recreations of iconic outfits worn by public figures, expertly sourcing and styling each piece for effortless integration into clients' existing wardrobes. Delivered fashion-forward solutions that allowed clients to emulate high-profile looks with ease and confidence.",
-    link: "https://your-portfolio-link.com",
+    link: "vs ps media/steal her look.mp4",
   },
   {
     title: "Visual Merchandising",
@@ -88,7 +88,7 @@ const imageVideoProjects = [
     type: "image",
     description:
       "Curated strategic fashion displays for private clients, designed to provide clear insight into each piece and its styling potential. Presented thoughtfully arranged selections that enhanced the shopping experience and empowered clients with a deeper understanding of what they were purchasing.",
-    link: "https://your-portfolio-link.com",
+    link: "vs ps media/visual merchandising.jpg",
   },
   {
     title: "Virtual Haul",
@@ -96,7 +96,7 @@ const imageVideoProjects = [
     type: "video",
     description:
       "Presented fashion hauls in a virtual format, showcasing key pieces, highlighting seasonal trends, and offering styling ideas to inspire clients. Delivered engaging and informative sessions that helped clients stay fashion-forward from the comfort of their own space.",
-    link: "https://your-portfolio-link.com",
+    link: "vs ps media/virtual haul.mp4",
   },
   {
     title: "What Would You Wear",
@@ -104,7 +104,7 @@ const imageVideoProjects = [
     type: "video",
     description:
       "Developed audience-focused, interactive style scenarios aimed at sparking inspiration and guiding confident outfit choices for real-life moments. Engaged viewers through relatable fashion challenges, encouraging creativity and personal expression in everyday styling.",
-    link: "https://your-portfolio-link.com",
+    link: "vs ps media/what would you wear.mp4",
   },
   {
     title: "Fashion Item Sale Alert",
@@ -112,7 +112,7 @@ const imageVideoProjects = [
     type: "image",
     description:
       "Delivered real-time updates to private clients on must-have clothing, footwear, accessories, and jewelry pieces as they went on sale. Ensured clients stayed ahead of trends and secured coveted items at the best possible value through timely and personalized alerts.",
-    link: "https://your-portfolio-link.com",
+    link: "vs ps media/sale alert.png",
   },
   {
     title: "Brand Discount Alert",
@@ -120,7 +120,7 @@ const imageVideoProjects = [
     type: "video",
     description:
       "Provided timely updates on exclusive brand discounts, thoughtfully curated to align with the audience's personal style goals and budget-friendly must-haves. Helped clients make intentional purchases by connecting them with stylish deals tailored to their fashion preferences.",
-    link: "https://your-portfolio-link.com",
+    link: "vs ps media/discount alert.mp4",
   },
   {
     title: "Personal Style Mood Board",
@@ -128,7 +128,7 @@ const imageVideoProjects = [
     type: "image",
     description:
       "Crafted personalized editorial mood boards to visually communicate style inspiration and direction for private clients. Translated individual tastes and fashion goals into cohesive, curated boards that served as a foundation for building or refining a client's personal style.",
-    link: "https://your-portfolio-link.com",
+    link: "vs ps media/mood board.png",
   },
 ];
 
@@ -139,7 +139,7 @@ const graphicDesignProjects = [
     type: "image",
     description:
       "The brand identity for ACAKÉ blends whimsical charm with sophistication. The logo creatively combines the letter A with a cupcake silhouette, establishing a strong, memorable symbol. Typography choices include the refined Amoria and the friendly Violina, balancing elegance with approachability.",
-    link: "https://your-portfolio-link.com",
+    link: "gd media/brand identity.png",
   },
   {
     title: "Sassy Sunday – Event Poster Design",
@@ -147,7 +147,7 @@ const graphicDesignProjects = [
     type: "image",
     description:
       "The poster design radiates bold luxury and energy, aligning with the upscale and lively vibe of the event. The central figure of Uncle Waffles is styled in red fur and gold accessories, creating a high-fashion focal point.",
-    link: "https://your-portfolio-link.com",
+    link: "gd media/event poster.png",
   },
   {
     title: "Chromatic Reverie - Etsy Art Poster Design",
@@ -155,7 +155,7 @@ const graphicDesignProjects = [
     type: "image",
     description:
       "This artwork fuses cybernetic aesthetics with surrealism, using a bold palette of teal, orange, and chrome to create a hypnotic, reflective surface effect. The smooth gradients and abstract patterning suggest a synthetic or augmented being.",
-    link: "https://your-portfolio-link.com",
+    link: "gd media/art poster.png",
   },
   {
     title: "ACAKÉ – Bakery Website Design",
@@ -163,7 +163,7 @@ const graphicDesignProjects = [
     type: "image",
     description:
       "This web design features a warm, inviting aesthetic that blends soft pastel colors with high-quality food imagery to create an engaging user experience. The homepage welcomes visitors with a hero image of fresh pastries and a clear call-to-action.",
-    link: "https://your-portfolio-link.com",
+    link: "gd media/web design.png",
   },
   {
     title: "BAD GAL RIRI – T-Shirt Design",
@@ -171,7 +171,7 @@ const graphicDesignProjects = [
     type: "image",
     description:
       "This design uses a deep red monochrome palette with layered vector effects to create a gritty, high-contrast image that radiates confidence and rebellion. The artwork captures Rihanna mid-expression—playful, fierce, and unapologetic.",
-    link: "https://your-portfolio-link.com",
+    link: "gd media/tshirt design.png",
   },
   {
     title: "Cloud of Zen – Matcha Ice Cream Promo Design",
@@ -179,7 +179,7 @@ const graphicDesignProjects = [
     type: "image",
     description:
       "This design blends elegance and flavor with a rich green palette inspired by matcha. The swirling soft-serve cone takes center stage, emphasized by a stylized background of flowing clouds and traditional Eastern motifs.",
-    link: "https://your-portfolio-link.com",
+    link: "gd media/ice cream promo.png",
   },
   {
     title: "The Holy Grail – Fast Food Promo Design",
@@ -187,7 +187,7 @@ const graphicDesignProjects = [
     type: "image",
     description:
       "This bold and energetic layout uses high-contrast colors—black, orange, and white—to grab attention and emphasize urgency with the #limitededition tag. The food imagery is vibrant, detailed, and mouth-watering.",
-    link: "https://your-portfolio-link.com",
+    link: "gd media/fast food promo.png",
   },
   {
     title: "Scarlet Sin – Mocktail Promo Design",
@@ -195,7 +195,7 @@ const graphicDesignProjects = [
     type: "image",
     description:
       "This design radiates luxury and allure through its rich red color scheme and floral illustrations. The deep crimson mocktail, served in a faceted glass and garnished with dark cherries, captures immediate attention.",
-    link: "https://your-portfolio-link.com",
+    link: "gd media/drink promo.png",
   },
 ];
 
