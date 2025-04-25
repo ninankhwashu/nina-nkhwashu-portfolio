@@ -504,6 +504,7 @@ body.dark-mode .project-card {
 
 .modal-description {
   width: 50%;
+  color: #ffffff;
 }
 
 .modal-description h2 {
@@ -511,7 +512,7 @@ body.dark-mode .project-card {
   color: #65fe08;
 }
 
-.modal-description {
+body.dark-mode .modal-description {
   color: #ffffff;
 }
 
