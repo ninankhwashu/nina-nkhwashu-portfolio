@@ -613,10 +613,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.getElementById("download-cv").addEventListener("click", function () {
-    const cvUrl = "media/cv.pdf";
+    const cvUrl = "media/ROLW Resume CV Nina Nkhwashu.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "Nina-Nkhwashu-CV.pdf";
+    link.download = "ROLW Resume CV Nina Nkhwashu.pdf";
     link.style.display = "none";
 
     const notification = document.createElement("div");
