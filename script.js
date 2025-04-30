@@ -432,39 +432,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const form = document.querySelector("form[name='contact']");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      const notification = document.createElement("div");
-      notification.className = "form-notification";
-      notification.textContent =
-        "Thank you for your message! I will get back to you as soon as I can.";
-      document.body.appendChild(notification);
-
-      setTimeout(() => {
-        notification.style.opacity = "0";
-        setTimeout(() => notification.remove(), 300);
-      }, 3000);
-    });
-  }
-
-  if (window.location.search.includes("form-submitted=true")) {
-    const notification = document.createElement("div");
-    notification.className = "form-notification";
-    notification.textContent =
-      "Thank you for your message! I will get back to you as soon as I can.";
-    document.body.appendChild(notification);
-
-    setTimeout(() => {
-      notification.style.opacity = "0";
-      setTimeout(() => notification.remove(), 300);
-    }, 3000);
-
-    history.replaceState(null, "", window.location.pathname);
-  }
-});
-
-document.addEventListener("DOMContentLoaded", function () {
   const years = [
     "2015",
     "2016",
@@ -648,18 +615,24 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+  const cube = document.querySelector(".skills-cube");
+
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
+          cube.classList.remove("paused");
+        } else {
+          cube.classList.add("paused");
         }
       });
     },
-    { threshold: 0.1 }
+    {
+      threshold: 0.1,
+    }
   );
 
-  document.querySelectorAll("section").forEach((section) => {
-    observer.observe(section);
-  });
+  if (cube) {
+    observer.observe(cube);
+  }
 });

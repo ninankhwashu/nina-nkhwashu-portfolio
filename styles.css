@@ -9,11 +9,6 @@ body {
   transition: background-color 0.5s, color 0.5s;
 }
 
-body.dark-mode {
-  background-color: #000000;
-  color: white;
-}
-
 section {
   animation: fadeIn 1s ease-in-out;
 }
@@ -40,10 +35,6 @@ nav {
   z-index: 1000;
 }
 
-body.dark-mode nav {
-  background-color: rgba(18, 18, 18, 0.9);
-}
-
 nav .logo {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
@@ -55,10 +46,6 @@ nav .logo {
 nav .logo:hover {
   color: #65fe08;
   text-decoration: wavy;
-}
-
-body.dark-mode nav .logo {
-  color: #50d6fe;
 }
 
 .nav-left {
@@ -78,10 +65,7 @@ nav .nav-right a {
   text-decoration: none;
   color: #50d6fe;
   font-size: 16px;
-}
-
-body.dark-mode nav .nav-right a {
-  color: #50d6fe;
+  text-align: center;
 }
 
 nav .nav-right a:hover {
@@ -167,10 +151,6 @@ nav .nav-right a:hover {
   color: white;
 }
 
-body.dark-mode #about {
-  background-color: rgb(0, 0, 0, 0.95);
-}
-
 .about-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -245,10 +225,6 @@ body.dark-mode #about {
   background-color: #000000;
 }
 
-body.dark-mode #projects {
-  background-color: #000000;
-}
-
 #projects-intro {
   text-align: center;
   text-decoration: double;
@@ -284,10 +260,6 @@ body.dark-mode #projects {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
-}
-
-body.dark-mode .project-card {
-  background-color: #000000;
 }
 
 .project-card:hover {
@@ -524,10 +496,6 @@ body.dark-mode .project-card {
   color: #65fe08;
 }
 
-body.dark-mode .modal-description {
-  color: #ffffff;
-}
-
 .modal-description a {
   display: inline-block;
   margin-top: 15px;
@@ -604,8 +572,14 @@ body.dark-mode .modal-description {
   position: relative;
   cursor: pointer;
   transition: transform 0.3s;
-  animation: pulseGlow 1s infinite ease-in-out;
-  box-shadow: 0 0 20px rgba(255, 235, 136, 0.6);
+  box-shadow: 0 0 10px rgba(255, 235, 136, 0.4);
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+  animation: pulseGlow 1.5s infinite ease-in-out;
+  box-shadow: 0 0 20px rgba(255, 235, 136, 0.6),
+    0 0 40px rgba(255, 235, 136, 0.9);
 }
 
 @keyframes pulseGlow {
@@ -620,31 +594,12 @@ body.dark-mode .modal-description {
   }
 }
 
-.testimonial-card:hover {
-  transform: scale(1.05);
-  animation: pulseGlow 1.5s infinite ease-in-out;
-}
-
-body.dark-mode .testimonial-card {
-  animation: pulseGlowDark 3s infinite ease-in-out;
-}
-
-@keyframes pulseGlowDark {
-  0%,
-  100% {
-    box-shadow: 0 0 20px rgba(26, 188, 156, 0.8),
-      0 0 40px rgba(71, 133, 168, 0.5);
-  }
-  50% {
-    box-shadow: 0 0 30px rgba(26, 188, 156, 1), 0 0 60px rgba(71, 133, 168, 0.7);
-  }
-}
-
 .testimonial-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: opacity 0.3s;
+  border-radius: 10px;
 }
 
 .testimonial-popup {
@@ -733,10 +688,6 @@ body.dark-mode .testimonial-card {
   overflow: hidden;
 }
 
-body.dark-mode #timeline {
-  background-color: #000000;
-}
-
 #timeline h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 36px;
@@ -744,10 +695,6 @@ body.dark-mode #timeline {
   color: #65fe08;
   position: relative;
   z-index: 10;
-}
-
-body.dark-mode #timeline h2 {
-  color: white;
 }
 
 .timeline-container {
@@ -760,11 +707,6 @@ body.dark-mode #timeline h2 {
   border: rgba(101, 254, 8, 0.5) 2px solid;
   box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-}
-
-body.dark-mode .timeline-container {
-  background-color: rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.05);
 }
 
 .particles-container {
@@ -793,10 +735,6 @@ body.dark-mode .timeline-container {
   transition: all 0.3s ease;
   z-index: 5;
   user-select: none;
-}
-
-body.dark-mode .timeline-particle {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .timeline-particle:hover {
@@ -833,10 +771,6 @@ body.dark-mode .timeline-particle {
   align-items: center;
   gap: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-body.dark-mode .download-button {
-  background-color: #1abc9c;
 }
 
 .download-button:hover {
@@ -880,11 +814,6 @@ body.dark-mode .download-button {
   position: relative;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   border: 1px solid #50d6fe;
-}
-
-body.dark-mode .timeline-modal .modal-content {
-  background-color: #000000;
-  color: white;
 }
 
 .timeline-content {
@@ -979,10 +908,6 @@ body.dark-mode .timeline-modal .modal-content {
   color: #65fe08;
 }
 
-body.dark-mode .modal-title {
-  color: #65fe08;
-}
-
 .timeline-modal .modal-description {
   font-size: 18px;
   line-height: 1.6;
@@ -1004,18 +929,10 @@ body.dark-mode .modal-title {
   color: #65fe08;
 }
 
-body.dark-mode .modal-description {
-  color: #ffffff;
-}
-
 #contact {
   padding: 80px 50px;
   background-color: #000000;
   padding-bottom: 40px;
-}
-
-body.dark-mode #contact {
-  background-color: #000000;
 }
 
 #contact h2 {
@@ -1024,10 +941,6 @@ body.dark-mode #contact {
   margin-bottom: 50px;
   color: #50d6fe;
   text-align: center;
-}
-
-body.dark-mode #contact h2 {
-  color: white;
 }
 
 .contact-container {
@@ -1050,11 +963,6 @@ body.dark-mode #contact h2 {
   flex-direction: column;
 }
 
-body.dark-mode .info-card {
-  background-color: #000000;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-}
-
 .info-card {
   display: flex;
   flex-direction: column;
@@ -1073,10 +981,6 @@ body.dark-mode .info-card {
   color: #50d6fe;
   position: relative;
   display: inline-block;
-}
-
-body.dark-mode .social-section h3 {
-  color: white;
 }
 
 .social-section h3::after {
@@ -1109,11 +1013,6 @@ body.dark-mode .social-section h3 {
   color: #50d6fe;
   font-size: 30px;
   transition: all 0.3s ease;
-}
-
-body.dark-mode .social-icons a {
-  background-color: #50d6fe;
-  color: white;
 }
 
 .social-icons a:hover {
@@ -1155,18 +1054,10 @@ body.dark-mode .social-icons a {
   color: #50d6fe;
 }
 
-body.dark-mode .info-text h4 {
-  color: white;
-}
-
 .info-text p {
   color: #ffffff;
   line-height: 1.5;
   margin: 0;
-}
-
-body.dark-mode .info-text p {
-  color: #ffffff;
 }
 
 .info-text {
@@ -1240,9 +1131,6 @@ body.dark-mode .info-text p {
     font-size: 18px;
   }
 }
-section {
-  animation: fadeIn 1s ease-in-out;
-}
 
 #closing-section {
   padding: 100px 50px;
@@ -1250,10 +1138,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-body.dark-mode #closing-section {
-  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .closing-container {
@@ -1276,16 +1160,17 @@ body.dark-mode #closing-section {
   line-height: 1.4;
 }
 
-body.dark-mode .closing-text h2 {
-  color: #ffffff;
-}
-
 .skills-cube {
   width: 200px;
   height: 200px;
   position: relative;
   transform-style: preserve-3d;
-  animation: rotateCube 10s infinite linear;
+  animation: rotateCube 20s infinite linear;
+  animation-play-state: running;
+}
+
+.skills-cube.paused {
+  animation-play-state: paused;
 }
 
 .face {
