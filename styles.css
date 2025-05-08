@@ -121,7 +121,7 @@ nav .nav-right a:hover {
 .spotlight-text p {
   color: #ffffff;
   text-shadow: #000000 5px 5px 5px;
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 30px;
 }
 
@@ -135,7 +135,7 @@ nav .nav-right a:hover {
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 18px;
   transition: transform 0.3s;
 }
 
