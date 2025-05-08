@@ -645,3 +645,13 @@ window.addEventListener("load", () => {
     });
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const logoLink = document.querySelector(".logo-link");
+
+  if (logoLink) {
+    logoLink.addEventListener("click", function (event) {
+      event.preventDefault();
+      location.reload();
+    });
+  }
+});
