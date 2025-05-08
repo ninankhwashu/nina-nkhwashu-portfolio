@@ -636,3 +636,12 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(cube);
   }
 });
+
+window.addEventListener("load", () => {
+  const bgVideo = document.querySelector(".video-background video");
+  if (bgVideo) {
+    bgVideo.play().catch((e) => {
+      console.warn("Background video autoplay failed:", e);
+    });
+  }
+});
