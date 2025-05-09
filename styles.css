@@ -26,7 +26,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: 15px 30px;
   background-color: #000000;
   color: #c9e8ff;
   backdrop-filter: blur(10px);
@@ -64,7 +64,7 @@ nav .nav-right a {
   margin-left: 20px;
   text-decoration: none;
   color: #50d6fe;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 nav .nav-right a:hover {
