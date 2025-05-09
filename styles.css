@@ -1326,12 +1326,10 @@ footer {
   }
 
   .nav-right a {
-    font-size: 18px;
-    text-align: center;
-    padding: 10px;
-    background-color: #1e5dac;
-    border-radius: 5px;
-    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #50d6fe;
+    font-size: 20px;
   }
 
   .nav-right a:hover {
