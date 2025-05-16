@@ -4,7 +4,7 @@ const developerProjects = [
     media: "dev media/Arcane Chronicles.mp4",
     type: "video",
     description:
-      "An immersive, character-based quiz game inspired by Arcane: League of Legends. Players test their knowledge of the series by answering character-based questions, unlocking rich lore & interactive visuals along the way.",
+      "An immersive, character-based quiz game inspired by Arcane: League of Legends. Players test their knowledge of the series by answering character-based questions, unlocking rich lore & interactive visuals along the way. Built with HTML, CSS, JavaScript. Features: Character selection system, quiz logic with score tracking, progress bar, custom animations (shimmer, shake, glow), real-time feedback, and a localStorage-based scoreboard. UI/UX: Looping background video (via AWS S3), SVG logo, custom favicon, Google Fonts, hover effects, blur states, responsive layout, and immersive theme styling. Tools used: Netlify (hosting), GitHub (version control), Google Fonts, Inkscape/Photoshop/Illustrator (for logo/favicons), AWS S3 (video background delivery).",
     link: "https://arcanequizgame.netlify.app",
   },
   {
@@ -12,7 +12,7 @@ const developerProjects = [
     media: "dev media/The Lyrithium Engine.mp4",
     type: "video",
     description:
-      "An elegant AI-powered poem generator that transforms user prompts into short, romantic verses with a single click. It uses natural language processing to craft personalized 8-line poems in real time.",
+      "An elegant AI-powered poem generator that transforms user prompts into short, romantic verses with a single click. It uses natural language processing to craft personalized 8-line poems in real time. Built with HTML, CSS, JavaScript. Features: Typewriter animation for poem output, dynamic user input, SheCodes AI API integration, stylized poem formatting, form validation, loading indicator. UI/UX: Pastel color palette, soft shadowing, animated feedback, branded logo & favicon, background image styling. Tools used: SheCodes AI API, Axios (HTTP requests), Typewriter.js, Netlify (hosting), GitHub (version control), Inkscape/Photoshop/Illustrator (for logo & favicon).",
     link: "https://thelyrithiumengine.netlify.app",
   },
   {
@@ -20,7 +20,7 @@ const developerProjects = [
     media: "dev media/Devallune.mp4",
     type: "video",
     description:
-      "A responsive web app designed to inspire developers who feel stuck or need a push to start building. With a single click, users receive a random challenge, ranging from unconventional app ideas to quirky UI constraints (e.g. Build a weather app that speaks the forecast out loud or Create a form that changes based on typing speed.",
+      "A responsive web app designed to inspire developers who feel stuck or need a push to start building. With a single click, users receive a random challenge, ranging from unconventional app ideas to quirky UI constraints (e.g. Build a weather app that speaks the forecast out loud or Create a form that changes based on typing speed. Built with HTML, CSS, JavaScript. Features: Animated glowing orbs for ambient motion, one-click random idea generation, UI highlight feedback, responsive design. UI/UX: Retro-futuristic black-and-gold aesthetic, glowing gradients, centered layout with smooth hover transitions. Tools used: Vanilla JS, CSS keyframe animations, Netlify (hosting), GitHub (version control), Inkscape/Photoshop/Illustrator (for logo/favicons).",
     link: "https://devallune.netlify.app",
   },
   {
@@ -28,7 +28,7 @@ const developerProjects = [
     media: "dev media/Pathpholio.mp4",
     type: "video",
     description:
-      "An interactive job application tracker that helps users organize and monitor their job hunt in one place, with smart filtering and localStorage-powered persistence.",
+      "An interactive job application tracker that helps users organize and monitor their job hunt in one place, with smart filtering and localStorage-powered persistence. Built with HTML, CSS, JavaScript. Features: Add, filter, and delete job applications with live UI updates, localStorage persistence, status-based filtering, and real-time alerts. UI/UX: Green-and-cyan neon visual palette, responsive design, form validation, table-based data layout. Tools used: Vanilla JS, custom CSS transitions, Google Fonts, Netlify (hosting), GitHub (version control), Poppins font for professional feel, and Inkscape/Photoshop/Illustrator (for logo/favicons).",
     link: "https://pathpholio.netlify.app",
   },
   {
@@ -36,7 +36,7 @@ const developerProjects = [
     media: "dev media/Standard Bank UX Login Experience.mp4",
     type: "video",
     description:
-      "A modern and responsive login interface designed to enhance user onboarding and authentication flow for digital banking platforms using Standard Bank as a case study.",
+      "A modern and responsive login interface designed to enhance user onboarding and authentication flow for digital banking platforms using Standard Bank as a case study. Built with HTML, CSS, JavaScript. Features: Dual login/sign-up panels with smooth animated transitions, a reset password module with dynamic reveal, and a toggle system to switch between views. UI/UX: Modern banking aesthetic using gradients, rounded containers, subtle shadows, and responsive design powered by News Cycle font. Tools used: DOM scripting for state toggling, smooth CSS transitions/animations, mobile-first layout responsiveness, Figma (for branding), and Inkscape/Photoshop/Illustrator (for logo/favicons). Project Type: UI/UX showcase — frontend only, no backend functionality.",
     link: "https://stdbankuserlogin.netlify.app",
   },
   {
@@ -44,7 +44,7 @@ const developerProjects = [
     media: "dev media/Pexzzles.mp4",
     type: "video",
     description:
-      "A drag-and-drop photo puzzle game that lets users search for images using the Pexels API and solve them as customizable grid-based puzzles.",
+      "A drag-and-drop photo puzzle game that lets users search for images using the Pexels API and solve them as customizable grid-based puzzles.Built with HTML, CSS, JavaScript, and REST API integration. Features: Drag & drop puzzle logic, image search, infinite scroll, timer, score tracking. UI/UX: Custom logo & favicon (designed in Inkscape/Photoshop/Illustrator), responsive layout, Google Fonts, CSS transitions. Tools used: Pexels API, GitHub, Figma (for branding), and Inkscape/Photoshop/Illustrator (for logo/favicons).",
     link: "https://pexzzles.netlify.app",
   },
   {
@@ -52,7 +52,7 @@ const developerProjects = [
     media: "dev media/Tech Hub Solutions.mp4",
     type: "video",
     description:
-      "Tech Hub Solutions is a professionally crafted website that showcases the offerings of an office supply company. The site includes dynamic product filtering, a customer testimonial slider, animated business stats, and interactive modals for service requests and cart actions.",
+      "Tech Hub Solutions is a professionally crafted website that showcases the offerings of an office supply company. The site includes dynamic product filtering, a customer testimonial slider, animated business stats, and interactive modals for service requests and cart actions. Built with HTML, CSS, JavaScript, jQuery, Slick Carousel. Features: • Product catalog with category filtering and interactive modals • Animated stats counters triggered on scroll • Contact form with validation and modal success feedback • Dark mode toggle with persistent state (localStorage) • Responsive design with mobile menu and smooth scrolling navigation. UX Focus: B2B-first layout emphasizing clarity, trust, and service accessibility. Tools used: DOM manipulation, Intersection Observer API, CSS animations, component-based layouting, Figma (for branding), Figma (for branding), and Inkscape/Photoshop/Illustrator (for logo/favicons).",
     link: "https://techhubsolutions.netlify.app",
   },
   {
@@ -60,7 +60,7 @@ const developerProjects = [
     media: "dev media/FNB UX Appointment Booking Experience.mp4",
     type: "video",
     description:
-      "A user-friendly interface designed to simplify and speed up the process of booking in-branch banking appointments without the hassle of waiting in queues.",
+      "A user-friendly interface designed to simplify and speed up the process of booking in-branch banking appointments without the hassle of waiting in queues.  Built with HTML, CSS, JavaScript. Features: • Client-side form validation with dynamic employee assignment • Weekday-only booking logic with real-time date filtering • Interactive onboarding screen and user-friendly UI • Appointment details summary with assistant assignment • Responsive, branded FNB design with custom background and animations. Tools used: DOM manipulation, date logic, event listeners, CSS animations, form validation, and Figma (for branding). UX Focus: Seamless booking experience with minimal clicks and clear confirmations. Goal: Streamlined branch traffic and eliminated queue congestion with a digital-first approach.",
     link: "https://fnbappointmentbooking.netlify.app",
   },
 ];
